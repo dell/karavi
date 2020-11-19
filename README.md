@@ -10,7 +10,11 @@ You may obtain a copy of the License at
 
 # Karavi
 
-[TODO: Add marketing description of Karavi Observability]
+Project Karavi aims at improving the observability, usability and data mobility for stateful applications with Dell Technologies Storage portfolio. Project Karavi together with the CSI plugins and the pioneering app-aware, app-consistent backup and recovery solutions form the most comprehensive enterprise grade Storage and Data Protection solutions for Kubernetes from Dell Technologies.
+
+Project Karavi is currently in tech-preview and includes the following [projects](#karavi-projects).
+
+We would love for you to try out these new features and cannot wait to hear from you as to how you found them and how we can improve these offerings.
 
 ## Table of Content
 
@@ -29,9 +33,9 @@ You may obtain a copy of the License at
 
 ## Karavi Projects
 
-### Karavi Observability
+Below is a listing of Karavi projects that aim to improve observability, usability and data mobility for stateful applications with Dell Technologies Storage portfolio.
 
-[TODO: Add marketing description of Karavi Observability]
+### Karavi Observability
 
 Please visit [Karavi Observability](./docs/karavi-observability/README.md) for deployment details.
 
