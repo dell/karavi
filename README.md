@@ -25,7 +25,7 @@ You may obtain a copy of the License at
 - [Security](./docs/SECURITY.md)
 - [About](#about)
 - Karavi Projects
-  - [karavi Observability](./docs/karavi-observabiilty/README.md)
+  - [karavi Observability](./docs/karavi-observability/README.md)
 
 ## Karavi Projects
 
@@ -33,7 +33,7 @@ You may obtain a copy of the License at
 
 [TODO: Add marketing description of Karavi Observability]
 
-Please visit [Karavi Observability](./docs/karavi-observabiilty/README.md) for deployment details.
+Please visit [Karavi Observability](./docs/karavi-observability/README.md) for deployment details.
 
 ## About
 
