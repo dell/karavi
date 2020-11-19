@@ -70,7 +70,7 @@ representative at an online or offline event.
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to the community leaders responsible for enforcement at
-[INSERT CONTACT METHOD].
+[Karavi](mailto:karavi@dell.com?subject=[Dell-Karavi]%20<replace%20me%20with%20more%20specific%20subject>).
 All complaints will be reviewed and investigated promptly and fairly.
 
 All community leaders are obligated to respect the privacy and security of the
