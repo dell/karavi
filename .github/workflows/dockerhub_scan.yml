@@ -1,0 +1,50 @@
+name: Scan Karavi Images
+
+on:
+  schedule:
+    - cron: "* * * * *"
+  workflow_dispatch:
+
+jobs:
+  get_images:
+    name: Get Images
+    runs-on: ubuntu-latest
+    outputs:
+     images_with_tag: ${{ steps.tagged.outputs.images_with_tag }}
+    steps:
+    - name: Install jq
+      run: sudo apt-get install jq
+    - name: Get all images
+      id: tagged
+      run: |
+           TAGGED_IMAGES=()
+           IMAGES=(karavi-topology  karavi-metrics-powerflex)  # list  of images names
+           for I in ${IMAGES[*]}
+           do
+              TAGS=$(curl -s ${REGISTRY}/v2/repositories/${REPO}/${I}/tags | tr ',' '\n' | grep '"name"' | awk -F '"' '{print $4}' | sort)
+              # for each image, build a tag
+              for T in ${TAGS}
+              do
+                  echo "IMAGE: ${REPO}/${I}:${T}"
+                  TAGGED_IMAGES+=("${REPO}/${I}:${T}")
+              done
+           done
+           TAGGED_IMAGES_JSON=$(printf '%s\n' "${TAGGED_IMAGES[@]}" | jq -R . | jq -s .)
+           echo ${TAGGED_IMAGES[@]} && echo ::set-output name=images_with_tag::${TAGGED_IMAGES_JSON} || true      
+      env:
+        REGISTRY: https://registry.hub.docker.com
+        REPO: dellemc
+  scan_all_images:
+    runs-on: ubuntu-latest
+    # Only run job when .yaml file is changed
+    needs: get_images
+    strategy:
+      matrix:
+       images: ${{ fromJson(needs.get_images.outputs.images_with_tag) }}
+    steps:
+      # Check out the repo
+      - name: Image Scanner
+        uses: Azure/container-scan@v0
+        with:
+          image-name: ${{ matrix.images }}
+          severity-threshold: HIGH
