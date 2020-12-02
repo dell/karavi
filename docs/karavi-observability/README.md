@@ -88,7 +88,7 @@ Grafana must be configured with the following data sources/plugins:
 | Prometheus data source | [Prometheus data source](https://grafana.com/docs/grafana/latest/features/datasources/prometheus/)   |
 | Data Table plugin      | [Data Table plugin](https://grafana.com/grafana/plugins/briangann-datatable-panel/installation) |
 | Pie Chart plugin       | [Pie Chart plugin](https://grafana.com/grafana/plugins/grafana-piechart-panel)                 |
-| JSON data source       | [JSON data source](https://grafana.com/grafana/plugins/simpod-json-datasource)                 |
+| JSON data source       | [JSON data source](https://grafana.com/grafana/plugins/grafana-simple-json-datasource)                 |
 
 Settings for the Grafana Prometheus data source:
 
