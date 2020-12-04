@@ -29,7 +29,7 @@ We would love for you to try out these new features and cannot wait to hear from
 - [Security](./docs/SECURITY.md)
 - [About](#about)
 - Karavi Projects
-  - [karavi Observability](./docs/karavi-observability/README.md)
+  - [Karavi Observability](./docs/karavi-observability/README.md)
 
 ## Karavi Projects
 
