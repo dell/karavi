@@ -81,7 +81,7 @@ scrape_configs:
       scrape_interval: 5s
       scheme: https
       static_configs:
-        - targets: ['otel-collector:443']
+        - targets: ['otel-collector:8443']
       tls_config:
         insecure_skip_verify: true
 ```
