@@ -29,7 +29,7 @@ We would love for you to try out these new features and cannot wait to hear from
 - [Security](./docs/SECURITY.md)
 - [About](#about)
 - Karavi Projects
-  - [Karavi Observability](./docs/karavi-observability/README.md)
+  - [Karavi Observability](https://github.com/dell/karavi-observability)
 
 ## Karavi Projects
 
@@ -37,7 +37,7 @@ Below is a listing of Karavi projects that aim to improve observability, usabili
 
 ### Karavi Observability
 
-Please visit [Karavi Observability](./docs/karavi-observability/README.md) for deployment details.
+Please visit [Karavi Observability](https://github.com/dell/karavi-observability) for deployment details.
 
 ## About
 
