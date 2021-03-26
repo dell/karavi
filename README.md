@@ -30,6 +30,7 @@ We would love for you to try out these new features and cannot wait to hear from
 - [About](#about)
 - Karavi Projects
   - [Karavi Observability](https://github.com/dell/karavi-observability)
+  - [Karavi Authorization](https://github.com/dell/karavi-authorization)
 
 ## Karavi Projects
 
@@ -38,6 +39,10 @@ Below is a listing of Karavi projects that aim to improve observability, usabili
 ### Karavi Observability
 
 Please visit [Karavi Observability](https://github.com/dell/karavi-observability) for deployment details.
+
+### Karavi Authorization
+
+Please visit [Karavi Authorization](https://github.com/dell/karavi-authorization) for deployment details.
 
 ## About
 
