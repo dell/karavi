@@ -44,6 +44,10 @@ Please visit [Karavi Observability](https://github.com/dell/karavi-observability
 
 Please visit [Karavi Authorization](https://github.com/dell/karavi-authorization) for deployment details.
 
+### Karavi Resiliency
+
+Please visit [Karavi Resiliency](https://github.com/dell/karavi-resiliency) for deployment details.
+
 ## About
 
 Karavi is 100% open source and community-driven. All components are available
