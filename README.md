@@ -31,6 +31,7 @@ We would love for you to try out these new features and cannot wait to hear from
 - Karavi Projects
   - [Karavi Observability](https://github.com/dell/karavi-observability)
   - [Karavi Authorization](https://github.com/dell/karavi-authorization)
+  - [Karavi Resiliency](https://github.com/dell/karavi-resiliency)
 
 ## Karavi Projects
 
