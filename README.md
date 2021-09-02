@@ -8,4 +8,6 @@ You may obtain a copy of the License at
     http://www.apache.org/licenses/LICENSE-2.0
 -->
 
+# Karavi
+
 Project Karavi has been renamed to Container Storage Modules (CSM).  Please visit https://github.com/dell/csm for more details.
